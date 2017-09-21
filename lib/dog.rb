@@ -1,9 +1,11 @@
+# Instance variables being defined within the 'Dog' class.
+
 class Dog
-  def name=(new_name)
+  def name=(new_name) # sets argument equal to variable
     @name = new_name
   end
 
-  def name
+  def name # gets data assigned to instance variable
     @name
   end
 
@@ -15,4 +17,3 @@ class Dog
     @breed
   end
 end
-
